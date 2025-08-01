@@ -19,3 +19,16 @@
     manager_id number(6),
     location_id number(4)
 );
+3.create table MY_Employee(
+    i_d number(4),
+    last_name varchar(25),
+    first_name varchar(25),
+    userid varchar(25),
+    salary number(9,2)
+
+);
+insert All 
+    into MY_Employee(i_d , last_name, first_name, userid , salary )values(1,'patel','ralph','rpatel',895)
+    into MY_Employee(i_d , last_name, first_name, userid , salary )values(2,'dancs','betty','bdancs',860)
+    select * from DUAL;
+select * from MY_EMPLOYEE;
